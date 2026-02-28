@@ -1,0 +1,41 @@
+{
+  "n_estimators": 50,
+  "max_depth": 8,
+  "n_features": 15,
+  "feature_importances": [
+    0.1874999999999999,
+    0.06250000000000022,
+    0.04687500000000017,
+    0.037946428571428534,
+    0.037946428571428534,
+    0.04017857142857135,
+    0.05133928571428578,
+    0.0,
+    0.05803571428571421,
+    0.04017857142857135,
+    0.06026785714285702,
+    0.03125000000000011,
+    0.05357142857142859,
+    0.029017857142857303,
+    0.26339285714285693
+  ],
+  "feature_names": [
+    "miss_distance_km",
+    "relative_velocity_km_s",
+    "sat1_altitude_km",
+    "sat2_altitude_km",
+    "altitude_difference_km",
+    "approach_angle_deg",
+    "time_to_conjunction_hours",
+    "velocity_component_x",
+    "sat1_speed_km_s",
+    "sat2_speed_km_s",
+    "delta_x_km",
+    "delta_y_km",
+    "delta_z_km",
+    "kinetic_energy_proxy",
+    "inverse_distance"
+  ],
+  "model_type": "RandomForestClassifier",
+  "version": "1.0.0"
+}

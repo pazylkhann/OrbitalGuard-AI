@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-02-28T17:50:04.689827",
+  "total_alerts": 1,
+  "alerts": [
+    {
+      "alert_id": "OG-20260228-0001",
+      "severity": "LOW",
+      "timestamp": "2026-02-28T17:50:04.689620",
+      "sat1_name": "TERRA",
+      "sat2_name": "COSMOS 2251 DEB",
+      "miss_distance_km": 61.89364304038859,
+      "collision_probability": 1.5718665528524682e-07,
+      "time_to_conjunction_hours": 38.866528609444444,
+      "recommendation": "\ud83d\udfe2 LOW RISK: No immediate action required. Standard monitoring protocol. Next assessment in 24 hours.",
+      "maneuver_window_hours": null,
+      "details": {
+        "relative_velocity_km_s": 0.193937296311975,
+        "sat1_altitude_km": 703.344999412654,
+        "sat2_altitude_km": 664.2612937010008,
+        "approach_angle_deg": 101.68415422278844,
+        "time_of_closest_approach": "2026-03-02T08:42:03.977850",
+        "ml_confidence": 0.90125,
+        "top_risk_factors": [
+          "Extremely close approach (26.3%)",
+          "Close miss distance (18.8%)",
+          "High relative velocity (6.2%)"
+        ]
+      }
+    }
+  ]
+}
